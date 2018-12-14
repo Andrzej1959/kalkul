@@ -25,11 +25,9 @@ public class LogicService extends Service {
         return n1 - n2;
     }
     public static double mul(double n1, double n2){
-        return n1 - n2;
+        return n1 * n2;
     }
-    public static double div(double n1, double n2){
-        return n1 - n2;
-    }
+    public static double div(double n1, double n2) { return n1 / n2; }
     @Override
     public IBinder onBind(Intent intent) {
         return mBinder;

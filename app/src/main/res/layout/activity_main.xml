@@ -15,7 +15,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="x" />
 
         <EditText
             android:id="@+id/n1EditText"
@@ -29,7 +29,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="y" />
 
         <EditText
             android:id="@+id/n2EditText"
@@ -58,6 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="subButtonClick"
                 android:text="-"
                 android:textSize="24sp" />
 
@@ -66,6 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="mulButtonClick"
                 android:text="*"
                 android:textSize="24sp" />
 
@@ -74,6 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="divButtonClick"
                 android:text="/"
                 android:textSize="24sp" />
         </LinearLayout>
@@ -82,7 +85,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Wynik" />
 
         <EditText
             android:id="@+id/resEditText"
